@@ -1,16 +1,33 @@
-# diamond_test
+# Project Structure:
 
-A new Flutter project.
+Clear separation of concerns with models, data, repositories, blocs, and screens
+BLoC pattern for state management as requested
+Persistent cart functionality using SharedPreferences
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# Model:
 
-A few resources to get you started if this is your first Flutter project:
+Diamond class that can be serialized for storage
+Proper handling of all required diamond attributes
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Pages:
+
+Filter Page: Users can filter diamonds by carat range, lab, shape, color, and clarity
+Result Page: Shows filtered diamonds with all details and provides sorting functionality
+Cart Page: Displays diamonds added to cart with summary information
+
+
+# Features:
+
+Filtering diamonds based on multiple criteria
+Sorting by price or carat weight
+Adding/removing diamonds from cart
+Persistent cart storage
+Cart summary with total carat, price, average price, and discount
+
+
+# Flutter Environment 
+Flutter SDK version: 3.29.2
+
+
